@@ -12,9 +12,9 @@ function Navbar() {
         </div>
         <div className="links-container">
             <ul className="nav-links-ul">
-                <li className="nav-links">About</li>
-                <li className="nav-links">Projects</li>
-                <li className="nav-links">Contact</li>
+                <li className="nav-links"><a className="nav-li-a">About</a></li>
+                <li className="nav-links"><a className="nav-li-a">Projects</a></li>
+                <li className="nav-links"><a className="nav-li-a">Contact</a></li>
             </ul>
         </div>
     </nav>
