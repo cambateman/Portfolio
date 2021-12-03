@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from './assets/Logo-whiteback-small.png'
+import Logo from '../assets/Logo-whiteback-small.png'
 
-import './Navbar.css';
+import '../Navbar.css';
 
 
 function Navbar() {
