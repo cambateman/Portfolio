@@ -1,0 +1,65 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translate(-10rem);
+    }
+    80%{transform: translate(1rem);
+        
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translate(10rem);
+    }
+    80%{transform: translate(-1rem);
+        
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.banner-header {
+    text-align: center;
+    font-size: 500%;
+    color: #40c1c9;
+    margin: 0px;
+    border: 0px;
+  
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  .banner-paragraph {
+    text-align: center;
+    font-size: 200%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #28677d;
+    margin: 0px;
+    border: 0px;
+  
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
