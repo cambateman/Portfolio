@@ -9,7 +9,7 @@ import databases from './assets/databases.png'
 
 function App() {
   return (
-    <div className="App">
+    <div className="index-page-cards">
       <SkillCard
             img={frontEnd}
             title="Front-end Development"
