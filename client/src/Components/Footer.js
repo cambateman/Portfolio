@@ -2,6 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
+import '../Footer.css'
+
 const githubIcon = <FontAwesomeIcon icon={faGithub} />
 const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
 const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />
@@ -10,8 +12,8 @@ const instagramIcon = <FontAwesomeIcon icon={faInstagram} />
 
 function Footer() {
     return (
-        <footer>
-            <meta charset="UTF-8"/>
+        <footer className="footer-container">
+
             <h2 className="footer-h2">Cam Bateman {new Date().getFullYear()}&copy;</h2>
             
             <ul className="footer-links">
@@ -22,6 +24,6 @@ function Footer() {
             </ul>
         </footer>
         )
-}
+    }
 
 export default Footer
