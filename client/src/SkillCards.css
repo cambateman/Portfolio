@@ -1,0 +1,47 @@
+.index-page-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60vh;
+
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  .index-page-card {
+    background-color: #f6f6f6;
+    width: 400px;
+    text-align: center;
+  }
+
+  .index-page-card:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+  
+  .index-page-card-image {
+    text-align: center;
+    max-height: 50%;
+    margin-top: 25px;
+  }
+  
+  .index-page-card-h2 {
+    color: #28677d;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .index-page-card-p {
+    color: #28677d;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .card-2-ul {
+    color: #28677d;
+    text-align: left;
+  }
