@@ -22,13 +22,16 @@ function Home() {
             <SkillCard
             img={backEnd}
             title="Back-end Development"
-            information="For those that need their website to 'do something' like: Allow users to log in and out, E-commerce functionality to sell your specialty products, Set-up mailing lists, Keep track of Appointments, or show an interactive schedule"
+            information="For those that need their website to 'do something' like: Allow users to 
+            log in and out, E-commerce functionality to sell your specialty products, Set-up mailing 
+            lists, Keep track of Appointments, or show an interactive schedule"
             />
 
             <SkillCard
             img={databases}
             title="Database Administration "
-            information="Managment or creation of SQL or NoSQL to manage your customers, orders, inventory, and provide reports"
+            information="Managment or creation of SQL or NoSQL to manage your customers, orders, 
+            inventory, and provide reports"
             />
             </div>
       </div>

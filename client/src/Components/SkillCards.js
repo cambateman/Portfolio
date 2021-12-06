@@ -13,10 +13,6 @@ function SkillCard(props) {
             <p className="index-page-card-p">
                 {props.information}
             </p>
-            <ul>
-                <li>penis</li>
-                <li>penis</li>
-            </ul>
         </div>
     );
 }
