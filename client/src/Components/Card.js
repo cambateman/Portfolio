@@ -10,6 +10,7 @@ export default function Card(props) {
           <div className="flip-box-inner">
             <div className="flip-box-front">
               <h2>{props.header}</h2>
+              <img src= {props.img}></img>
             </div>
             <div className="flip-box-back">
               <h2>{props.children}</h2>

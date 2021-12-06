@@ -44,8 +44,8 @@
 }
 
 .flip-box-front {
-  background-color: blue;
-  color: black;
+  background-color: #40c1c9;
+  color: #28677d;
 }
 
 .flip-box-back {
@@ -80,7 +80,7 @@
 .flip-box {
   background-color: transparent;
   width: 300px;
-  height: 250px;
+  height: 300px;
   
   perspective: 1000px;
 }
@@ -107,12 +107,12 @@
 }
 
 .flip-box-front {
-  background-color: blue;
-  color: black;
+  background-color: #40c1c9;
+  color: #28677d;
 }
 
 .flip-box-back {
-  background-color: red;
+  background-color: #28677d;
   color: white;
   transform: rotateY(180deg);
 }
@@ -124,4 +124,18 @@
     align-items: center;
     justify-content: space-around;
 }
+}
+
+#myBtnContainer {
+  margin-top:100px ;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.btn {
+  color: #40c1c9;
+  background-color: #28677d;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 25px;
 }
