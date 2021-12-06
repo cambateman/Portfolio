@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 
 import About from "./Pages/About"
 import Home from "./Pages/Home"
@@ -16,21 +16,31 @@ import databases from './assets/databases.png'
 
 
 function App() {
-  return (
+  return (<Router>
+
     <div className="App">
       <Navbar />
-        <Router>
+      
+      <Switch>
+
+          <Route path="/Projects">
+            <Projects />
+          </Route>
+
+          <Route path="/About">
+            <About />
+          </Route>
           
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="About" element={<About />} />
-            <Route exact path="Projects" element={<Projects />} />
-          </Routes>
-  
-        </Router>
+
+          <Route path="/">
+            <Home />
+          </Route>
+
+      </Switch>
+
       <Footer />
     </div>
+    </Router>
   );
 }
-
 export default App;

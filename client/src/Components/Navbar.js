@@ -1,5 +1,6 @@
 import Logo from '../assets/Logo-whiteback-removebg-preview.png'
 import '../Navbar.css'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -16,14 +17,13 @@ function Navbar() {
                 </svg>
             </label>
             <ul className="nav__menu">
-                <li><a href="#">
+                <li><Link to="Home">
                     <div className="img-container">
                     <img src={Logo} />
                     </div>
-                </a></li>
-                <li><a className="nav-li-a" href="#">About</a></li>
-                <li><a className="nav-li-a" href="#">Work</a></li>
-                <li><a className="nav-li-a" href="#">Contact</a></li>
+                </Link></li>
+                <li><Link to="About" className="nav-li-a" href="#">About</Link></li>
+                <li><Link to="Projects" className="nav-li-a" href="#">Projects</Link></li>
             </ul>
             </nav>
         </body>
