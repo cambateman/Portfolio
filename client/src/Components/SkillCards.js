@@ -5,15 +5,19 @@ import React from 'react'
 
 function SkillCard(props) {
     return (
-    <div className="index-page-cards">
         <div className="index-page-card">
-            <img src={props.img} className="index-page-card-image" alt=""/> 
+            <div className="index-page-card-img-container">
+                <img src={props.img} className="index-page-card-image" alt=""/> 
+            </div>
             <h2 className="index-page-card-h2">{props.title}</h2>
             <p className="index-page-card-p">
                 {props.information}
             </p>
+            <ul>
+                <li>penis</li>
+                <li>penis</li>
+            </ul>
         </div>
-    </div>
     );
 }
 
