@@ -20,7 +20,12 @@ function Projects() {
           category="HTML/Sass/CSS/Javascript"
           selectedButton={selectedButton}
         >
-          Back Side
+        <h2 className="card-back-h2">SUKI</h2>
+        <p className="card-back-p">Hello</p>
+        <ul className="card-back-ul">
+          <li>tests</li>
+        </ul>
+          
         </Card>
 
         <Card
@@ -29,7 +34,8 @@ function Projects() {
           category=".Net C#"
           selectedButton={selectedButton}
         >
-          Back Side
+          
+          
         </Card>
 
         <Card
@@ -38,7 +44,7 @@ function Projects() {
           category="Javascript Frameworks"
           selectedButton={selectedButton}
         >
-          Back Side
+          
         </Card>
 
         <Card
@@ -47,7 +53,7 @@ function Projects() {
           category="Fullstack Javascript"
           selectedButton={selectedButton}
         >
-          Back Side
+          
         </Card>
       </div>
       </>
