@@ -1,28 +1,52 @@
-.index-page-card {
-  background-color: red;
-  height: 500px;
-  width: 20rem;
-  /* text-align: center; */
+.index-page-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+@media only screen and (max-width: 560px) {
+  .index-page-cards {
+      display: block;
+      margin-left: 100px;
+    }
+  .index-page-card-image {
+    background-color: yellow;
+  }
+  .index-page-card {
+    margin-bottom: 30px;
+  }
 }
 
 .index-page-card-img-container {
-  background-color: skyblue;
   
 }
+
+.index-page-card {
+  background-color:#f7f7f7;
+  height: 500px;
+  width: 20rem;
+  padding: 5px;
+  
+}
+
+
 .index-page-card-image {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .index-page-card-h2 {
-  background-color: royalblue;
+  color: #40c1c9;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .index-page-card-p {
-  background-color: salmon;
+  color: #28677d;
   text-align: center;
 }
 

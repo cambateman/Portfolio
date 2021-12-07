@@ -6,7 +6,7 @@
 body {
     font-family: "Andika New Basic", sans-serif;
     font-weight: 700;
-    color: #2a324b;
+    color: #28677d;
 }
 .nav {
     border-bottom: 1px solid #eef1f6;
@@ -19,7 +19,7 @@ body {
 }
 .nav__toggle svg {
     width: 1.5rem;
-    fill: #2a324b;
+    fill: #28677d;
 }
 .nav__toggle .close {
     display: none;
@@ -52,7 +52,7 @@ body {
 }
 .nav__menu svg {
     width: 1.5rem;
-    fill: #2a324b;
+    fill: #28677d;
 }
 #nav__checkbox:checked ~ ul.nav__menu li {
     display: block;
@@ -108,7 +108,7 @@ body {
     height: 200px;
 }
 
-img { max-height: 200px; }
+.navbar-image { max-height: 200px; }
 
 @media only screen and (max-width: 560px) {
     img { max-height: 100px; }

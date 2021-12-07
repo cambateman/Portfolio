@@ -19,7 +19,7 @@ function Navbar() {
             <ul className="nav__menu">
                 <li><Link to="Home">
                     <div className="img-container">
-                    <img src={Logo} />
+                    <img src={Logo} className="navbar-image"/>
                     </div>
                 </Link></li>
                 <li><Link to="About" className="nav-li-a" href="#">About</Link></li>
