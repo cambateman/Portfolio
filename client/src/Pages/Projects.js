@@ -54,7 +54,7 @@ function Projects() {
           selectedButton={selectedButton}
         >
         <h2 className="card-back-h2">MovieDb</h2>
-        <p className="card-back-p">An indivudal project using to create a very basic IMD of sorts</p>
+        <p className="card-back-p">An indivudal project to create a very basic IMD of sorts</p>
         <ul className="card-back-ul">
           <li>React</li>
           <li>Class-based Components</li>
