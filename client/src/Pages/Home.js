@@ -35,7 +35,6 @@ function Home() {
             inventory, and provide reports"
             />
             </div>
-            <Footer />
       </div>
     );
   }
