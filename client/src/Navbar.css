@@ -108,7 +108,7 @@ body {
     height: 200px;
 }
 
-img { max-height: 200px; }
+.navbar-image { max-height: 200px; }
 
 @media only screen and (max-width: 560px) {
     img { max-height: 100px; }
