@@ -92,6 +92,20 @@
   }
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Andika New Basic", sans-serif;
+  font-weight: 700;
+}
+
 .banner-header {
   text-align: center;
   font-size: 500%;
@@ -118,6 +132,12 @@
 
 @media only screen and (max-width: 600px) {
   .banner-header {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-paragraph {
     font-size: 200%;
   }
 }
