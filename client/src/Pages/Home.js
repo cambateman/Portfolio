@@ -4,12 +4,12 @@ import SkillCard from "../Components/SkillCards";
 import frontEnd from '../assets/front-end.png';
 import backEnd from '../assets/back-end.png';
 import databases from '../assets/databases.png';
-import Footer from "../Components/Footer";
 
+import '../Sass/main.css'
 
 function Home() {
     return (
-      <div>
+      <div className="about-container">
           <Banner />
            <div className="index-page-cards">
             <SkillCard

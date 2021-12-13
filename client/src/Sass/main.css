@@ -96,8 +96,6 @@
   text-align: center;
   font-size: 500%;
   color: #40c1c9;
-  margin: 0px;
-  border: 0px;
   -webkit-animation-name: moveInLeft;
           animation-name: moveInLeft;
   -webkit-animation-duration: 1s;
@@ -109,17 +107,19 @@
 .banner-paragraph {
   text-align: center;
   font-size: 200%;
-  margin-left: 10%;
-  margin-right: 10%;
   color: #28677d;
-  margin: 0px;
-  border: 0px;
   -webkit-animation-name: moveInRight;
           animation-name: moveInRight;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-header {
+    font-size: 200%;
+  }
 }
 
 .filterDiv {
@@ -291,19 +291,6 @@
   text-decoration: none;
 }
 
-*, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Andika New Basic", sans-serif;
-  font-weight: 700;
-  color: #28677d;
-}
-
 .nav {
   border-bottom: 1px solid #eef1f6;
 }
@@ -359,7 +346,6 @@ body {
 
 .nav__menu a {
   text-decoration: none;
-  color: inherit;
   font-size: 1.2rem;
 }
 
@@ -441,25 +427,6 @@ body {
 
 .index-page-cards {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-@media only screen and (max-width: 560px) {
-  .index-page-cards {
-    display: block;
-    margin-left: 100px;
-  }
-  .index-page-card-image {
-    background-color: yellow;
-  }
-  .index-page-card {
-    margin-bottom: 30px;
-  }
 }
 
 .index-page-card {
@@ -555,5 +522,19 @@ body {
 
 .about-p-container {
   width: 600px;
+}
+
+.about-container {
+  background-color: yellow;
+  margin: 10px 10px 10px 10px;
+}
+
+.index-page-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=main.css.map */

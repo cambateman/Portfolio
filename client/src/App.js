@@ -23,7 +23,7 @@ function App() {
 
     <div className="App">
       <Navbar />
-{/*       
+      
       <Switch>
 
           <Route path="/Projects">
@@ -41,7 +41,7 @@ function App() {
 
       </Switch>
 
-      <Footer /> */}
+      <Footer />
     </div>
     </Router>
   );

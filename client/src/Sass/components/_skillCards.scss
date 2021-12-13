@@ -1,21 +1,6 @@
 .index-page-cards {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
     
-  }
-  
-  @media only screen and (max-width: 560px) {
-    .index-page-cards {
-        display: block;
-        margin-left: 100px;
-      }
-    .index-page-card-image {
-      background-color: yellow;
-    }
-    .index-page-card {
-      margin-bottom: 30px;
-    }
   }
   
   .index-page-card {

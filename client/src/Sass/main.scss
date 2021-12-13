@@ -1,3 +1,7 @@
+@import './abstracts/variables';
+
+@import './base/animations';
+
 @import './components/banner';
 @import './components/card';
 @import './components/footer';
@@ -5,3 +9,4 @@
 @import './components/skillCards';
 
 @import './pages/about';
+@import './pages/home';
