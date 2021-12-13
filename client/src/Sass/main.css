@@ -434,7 +434,7 @@ body {
 }
 
 @media only screen and (max-width: 560px) {
-  .img-container {
+  .navbar-image {
     max-height: 100px;
   }
 }
