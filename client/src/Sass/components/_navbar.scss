@@ -1,5 +1,5 @@
 .nav {
-    border-bottom: 1px solid #eef1f6;
+    border-bottom: 3px solid $color2;
 }
 .nav__toggle {
     position: absolute;
@@ -8,8 +8,8 @@
     right: 0;
 }
 .nav__toggle svg {
-    width: 1.5rem;
-    fill: #28677d;
+    width: 5rem;
+    fill: $color1;
 }
 .nav__toggle .close {
     display: none;
@@ -75,7 +75,7 @@
   bottom: 0;
   content: "";
   display: block;
-  height: 2px;
+  height: 3px;
   left: 50%;
   position: absolute;
   background: #28677d;

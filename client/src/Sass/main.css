@@ -312,7 +312,7 @@ body {
 }
 
 .nav {
-  border-bottom: 1px solid #eef1f6;
+  border-bottom: 3px solid #28677d;
 }
 
 .nav__toggle {
@@ -323,8 +323,8 @@ body {
 }
 
 .nav__toggle svg {
-  width: 1.5rem;
-  fill: #28677d;
+  width: 5rem;
+  fill: #40c1c9;
 }
 
 .nav__toggle .close {
@@ -412,7 +412,7 @@ body {
   bottom: 0;
   content: "";
   display: block;
-  height: 2px;
+  height: 3px;
   left: 50%;
   position: absolute;
   background: #28677d;
@@ -446,12 +446,12 @@ body {
 }
 
 .index-page-cards {
-  margin-top: 50px;
+  margin-top: .5rem;
 }
 
 .index-page-card {
   background-color: #f7f7f7;
-  height: 500px;
+  height: 30rem;
   width: 20rem;
   padding: 5px;
 }
@@ -459,31 +459,18 @@ body {
 .index-page-card-image {
   display: block;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+  margin: 0 auto;
 }
 
 .index-page-card-h2 {
   color: #40c1c9;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 .index-page-card-p {
   color: #28677d;
   text-align: center;
-}
-
-.skill-card-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .index-page-card ul {

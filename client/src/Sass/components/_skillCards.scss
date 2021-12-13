@@ -1,40 +1,31 @@
 .index-page-cards {
-    margin-top: 50px;
+    margin-top: .5rem;
     
   }
   
   .index-page-card {
     background-color:#f7f7f7;
-    height: 500px;
+    height: 30rem;
     width: 20rem;
     padding: 5px;
-    
   }
   
   
   .index-page-card-image {
     display: block;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 0 auto;
   }
   
   .index-page-card-h2 {
-    color: #40c1c9;
+    color: $color1;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
   }
   
   .index-page-card-p {
-    color: #28677d;
+    color: $color2;
     text-align: center;
-  }
-  
-  .skill-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   
   .index-page-card ul {
