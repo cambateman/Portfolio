@@ -1,4 +1,4 @@
-import '../About.css';
+
 import Headshot from '../assets/headshot.png'
 function About() {
     return (

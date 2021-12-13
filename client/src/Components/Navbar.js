@@ -1,5 +1,4 @@
 import Logo from '../assets/Logo-whiteback-removebg-preview.png'
-import '../Navbar.css'
 import {Link} from 'react-router-dom'
 
 function Navbar() {

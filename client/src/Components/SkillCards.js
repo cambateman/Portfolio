@@ -1,5 +1,3 @@
-import '../SkillCards.css'
-
 import React from 'react'
 
 

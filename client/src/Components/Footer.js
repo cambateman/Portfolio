@@ -2,8 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-import '../Footer.css'
-
 const githubIcon = <FontAwesomeIcon icon={faGithub} />
 const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
 const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />

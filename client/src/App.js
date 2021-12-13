@@ -13,10 +13,13 @@ import frontEnd from './assets/front-end.png'
 import backEnd from './assets/back-end.png'
 import databases from './assets/databases.png'
 
+import './Sass/main.css'
+
 
 
 function App() {
-  return (<Router>
+  return (
+    <Router>
 
     <div className="App">
       <Navbar />
