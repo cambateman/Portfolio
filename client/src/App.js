@@ -6,7 +6,6 @@ import Projects from "./Pages/Projects"
 import Test from "./Pages/Test";
 
 import Navbar from "./Components/Navbar";
-import Card1 from "./Components/Card1";
 import Banner from "./Components/Banner";
 import SkillCard from "./Components/SkillCards";
 import Footer from "./Components/Footer";
