@@ -487,12 +487,15 @@ body {
 
 .footer-h2 {
   color: #28677d;
+  font-size: 4rem;
+  margin-bottom: 10px;
 }
 
 .footer-li-a {
   margin-left: 25px;
   margin-right: 25px;
   color: #28677d;
+  margin-bottom: 80px;
 }
 
 .footer-li-a:hover {
@@ -853,7 +856,7 @@ body {
 
 .home-container {
   margin: 10px 10px 10px 10px;
-  height: 70rem;
+  height: 80rem;
 }
 
 .skill-card-container {
