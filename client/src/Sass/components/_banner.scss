@@ -1,31 +1,123 @@
-.banner-header {
-    text-align: center;
-    font-size: 500%;
-    color: $color1;
-    
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-  }
-  
-  .banner-paragraph {
-    text-align: center;
-    font-size: 200%;
-    color: $color2;
-  
-    animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-  }
+@media only screen and (max-width: 600px) {
+  .banner {
+    &-header {
+        text-align: center;
+        font-size: 300%;
+        color: $color1;
+          
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
 
-  @media only screen and (max-width: 600px) {
-    .banner-header {
-      font-size: 200%;
+    &-paragraph {
+        text-align: center;
+        font-size: 150%;
+        color: $color2;
+        
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }      
+  }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .banner {
+    &-header {
+        text-align: center;
+        font-size: 400%;
+        color: $color1;
+        
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    &-paragraph {
+        text-align: center;
+        font-size: 200%;
+        color: $color2;
+      
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
     }
   }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner {
+    &-header {
+        text-align: center;
+        font-size: 500%;
+        color: $color1;
+        
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
 
-  @media only screen and (max-width: 600px) {
-    .banner-paragraph {
-      font-size: 200%;
+    &-paragraph {
+        text-align: center;
+        font-size: 200%;
+        color: $color2;
+      
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
     }
   }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .banner {
+    &-header {
+        text-align: center;
+        font-size: 600%;
+        color: $color1;
+        
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    &-paragraph {
+        text-align: center;
+        font-size: 300%;
+        color: $color2;
+      
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+  }
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .banner {
+    &-header {
+        text-align: center;
+        font-size: 800%;
+        color: $color1;
+        
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    &-paragraph {
+        text-align: center;
+        font-size: 400%;
+        color: $color2;
+      
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+  }
+}

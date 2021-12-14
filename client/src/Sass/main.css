@@ -1,3 +1,38 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .class {
+    background: red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .class {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .class {
+    background: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .class {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .class {
+    background: pink;
+  }
+}
+
 @-webkit-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -101,44 +136,143 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Andika New Basic", sans-serif;
   font-weight: 700;
-}
-
-.banner-header {
-  text-align: center;
-  font-size: 500%;
-  color: #40c1c9;
-  -webkit-animation-name: moveInLeft;
-          animation-name: moveInLeft;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-}
-
-.banner-paragraph {
-  text-align: center;
-  font-size: 200%;
-  color: #28677d;
-  -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media only screen and (max-width: 600px) {
   .banner-header {
-    font-size: 200%;
+    text-align: center;
+    font-size: 300%;
+    color: #40c1c9;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  .banner-paragraph {
+    text-align: center;
+    font-size: 150%;
+    color: #28677d;
+    -webkit-animation-name: moveInRight;
+            animation-name: moveInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .banner-header {
+    text-align: center;
+    font-size: 400%;
+    color: #40c1c9;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
   .banner-paragraph {
+    text-align: center;
     font-size: 200%;
+    color: #28677d;
+    -webkit-animation-name: moveInRight;
+            animation-name: moveInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner-header {
+    text-align: center;
+    font-size: 500%;
+    color: #40c1c9;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  .banner-paragraph {
+    text-align: center;
+    font-size: 200%;
+    color: #28677d;
+    -webkit-animation-name: moveInRight;
+            animation-name: moveInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .banner-header {
+    text-align: center;
+    font-size: 600%;
+    color: #40c1c9;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  .banner-paragraph {
+    text-align: center;
+    font-size: 300%;
+    color: #28677d;
+    -webkit-animation-name: moveInRight;
+            animation-name: moveInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .banner-header {
+    text-align: center;
+    font-size: 800%;
+    color: #40c1c9;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  .banner-paragraph {
+    text-align: center;
+    font-size: 400%;
+    color: #28677d;
+    -webkit-animation-name: moveInRight;
+            animation-name: moveInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }
 
@@ -323,6 +457,11 @@ body {
   letter-spacing: .3rem;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 50px;
+}
+
+.flip-card-description {
+  padding: 100px;
 }
 
 .flip-card-back {
@@ -729,6 +868,10 @@ body {
           animation-timing-function: ease-out;
 }
 
+.about-p-container {
+  width: 600px;
+}
+
 .about-p {
   text-align: left;
   margin-bottom: 30px;
@@ -739,10 +882,6 @@ body {
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-}
-
-.about-p-container {
-  width: 600px;
 }
 
 .about-container {
