@@ -24,10 +24,9 @@ function App() {
   return (
     <Router>
 
-    <div className="App">
       <Navbar />
       
-      <Switch>
+        <Switch>
           <Route path="/Test">
             <Test />
           </Route>
@@ -45,10 +44,10 @@ function App() {
             <Home />
           </Route>
 
-      </Switch>
+        </Switch>
 
       <Footer />
-    </div>
+
     </Router>
   );
 }
