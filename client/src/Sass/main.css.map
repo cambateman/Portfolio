@@ -13,7 +13,8 @@
         "components/_navbar.scss",
         "components/_skillCards.scss",
         "pages/_about.scss",
-        "pages/_home.scss"
+        "pages/_home.scss",
+        "pages/_projects.scss"
     ],
     "names": [],
     "file": "main.css"
