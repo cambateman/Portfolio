@@ -280,20 +280,6 @@ body {
   display: block;
 }
 
-.card-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: yellow;
-}
-
 .flip-box {
   background-color: transparent;
   width: 40rem;
@@ -315,9 +301,29 @@ body {
           transform-style: preserve-3d;
 }
 
-.flip-box:hover .flip-box-inner {
+.flip-box-front {
+  background-color: #40c1c9;
+  color: #28677d;
+}
+
+.flip-box-front-img {
+  max-width: 250px;
+  margin-left: .25rem;
+  margin-top: 30px;
+}
+
+.flip-box-back {
+  background-color: #28677d;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+.flip-box-back-title {
+  color: red;
+}
+
+.flip-box-back-description {
+  color: red;
 }
 
 .flip-box-front, .flip-box-back {
@@ -328,50 +334,9 @@ body {
   backface-visibility: hidden;
 }
 
-.flip-box-front {
-  background-color: #40c1c9;
-  color: #28677d;
-}
-
-.flip-box-back {
-  background-color: #28677d;
+.flip-box:hover .flip-box-inner {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-}
-
-@media screen and (max-width: 768px) {
-  .card-wrapper {
-    display: block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-.flip-box-front-h2 {
-  margin-top: 30px;
-}
-
-.flip-box-front-img {
-  max-width: 250px;
-  margin-left: .25rem;
-  margin-top: 30px;
-}
-
-.card-back-h2 {
-  color: #40c1c9;
-}
-
-.card-back-p {
-  color: #40c1c9;
-}
-
-.card-back-ul {
-  color: #40c1c9;
-  margin-left: 50px;
-  text-align: left;
 }
 
 .cards-container {
@@ -882,5 +847,19 @@ body {
   margin: 20px;
   padding: 10px;
   border-radius: 25px;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: yellow;
 }
 /*# sourceMappingURL=main.css.map */
