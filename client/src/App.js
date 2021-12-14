@@ -3,12 +3,14 @@ import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import About from "./Pages/About"
 import Home from "./Pages/Home"
 import Projects from "./Pages/Projects"
+import Test from "./Pages/Test";
 
 import Navbar from "./Components/Navbar";
 import Card1 from "./Components/Card1";
 import Banner from "./Components/Banner";
 import SkillCard from "./Components/SkillCards";
 import Footer from "./Components/Footer";
+
 
 import frontEnd from './assets/front-end.png'
 import backEnd from './assets/back-end.png'
@@ -24,10 +26,11 @@ function App() {
 
     <div className="App">
       <Navbar />
-
-      <Card1 />
       
-      {/* <Switch>
+      <Switch>
+          <Route path="/Test">
+            <Test />
+          </Route>
 
           <Route path="/Projects">
             <Projects />
@@ -44,7 +47,7 @@ function App() {
 
       </Switch>
 
-      <Footer /> */}
+      <Footer />
     </div>
     </Router>
   );

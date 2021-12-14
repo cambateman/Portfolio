@@ -30,6 +30,9 @@ function Navbar() {
               <li>
                 <Link to="Projects" className="nav-li-a" href="#">Projects</Link>
               </li>
+              <li>
+                <Link to="Test" className="nav-li-a" href="#">Test</Link>
+              </li>
             </ul>
           </nav>
     );

@@ -1,41 +1,48 @@
-.about-wrapper {
-    background-color: #f7f7f7;
-    height: 1000px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+.about {
 
-.about-h2 {
-    color: #40c1c9;
-    border-bottom: 5px solid #28677d;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 100px;
-    text-align: center;
-}
-.about-flex-container {
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-around;
-    color: $color1;
-}
+    &-wrapper {
+        background-color: #f7f7f7;
+        height: 1000px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-.about-img {
-    height: 90%;
+    &-h2 {
+        color: #40c1c9;
+        border-bottom: 5px solid #28677d;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 100px;
+        text-align: center;
+    }
 
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-}
+    &-flex-container {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+        color: $color1;
+    }
 
-.about-p {
-    text-align: left;
-    margin-bottom: 30px;
-    font-size: 20px;
-    animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-}
-.about-p-container {
-    width: 600px;
-}
+    &-img {
+        height: 90%;
+
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    &-p-container {
+        width: 600px;
+    }
+
+    &-p {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 20px;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+
+    
+}    

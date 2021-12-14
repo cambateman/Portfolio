@@ -6,7 +6,13 @@
     padding: 0;
 }
 
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Andika New Basic", sans-serif;
     font-weight: 700;
+    box-sizing: border-box
 }
