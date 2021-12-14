@@ -536,31 +536,31 @@ body {
   border-bottom: 3px solid #28677d;
 }
 
-.nav__toggle {
+.nav-toggle {
   position: absolute;
   cursor: pointer;
   margin: 0rem 1rem;
   right: 0;
 }
 
-.nav__toggle svg {
+.nav-toggle svg {
   width: 5rem;
   fill: #40c1c9;
 }
 
-.nav__toggle .close {
+.nav-toggle .close {
   display: none;
 }
 
-.nav__toggle .menu {
-  margin-top: 0.2rem;
+.nav-toggle .menu {
+  margin-top: 1.5rem;
 }
 
-.nav__checkbox {
+.nav-checkbox {
   display: none;
 }
 
-.nav__menu {
+.nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,49 +575,49 @@ body {
   margin: 1rem;
 }
 
-.nav__menu li {
+.nav-menu li {
   list-style: none;
   display: none;
 }
 
-.nav__menu li:first-child {
+.nav-menu li:first-child {
   margin-right: auto;
   display: block;
 }
 
-.nav__menu a {
+.nav-menu a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 3rem;
 }
 
-.nav__menu svg {
+.nav-menu svg {
   width: 1.5rem;
   fill: #28677d;
 }
 
-#nav__checkbox:checked ~ ul.nav__menu li {
+#nav-checkbox:checked ~ ul.nav-menu li {
   display: block;
 }
 
-#nav__checkbox:checked ~ label.nav__toggle .close {
+#nav-checkbox:checked ~ label.nav-toggle .close {
   display: block;
 }
 
-#nav__checkbox:checked ~ label.nav__toggle .menu {
+#nav-checkbox:checked ~ label.nav-toggle .menu {
   display: none;
 }
 
 @media only screen and (min-width: 560px) {
-  .nav__toggle {
+  .nav-toggle {
     display: none;
   }
-  .nav__menu {
+  .nav-menu {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .nav__menu li {
+  .nav-menu li {
     display: block;
   }
 }
@@ -642,27 +642,23 @@ body {
   width: 0;
 }
 
-.nav-li-a:hover:after {
-  width: 100%;
-  left: 0;
-}
-
 .nav-li-a:hover {
   text-decoration: none;
   color: #40c1c9;
 }
 
-.img-container {
-  height: 15rem;
+.nav-li-a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .navbar-image {
-  max-height: 200px;
+  max-height: 20rem;
 }
 
 @media only screen and (max-width: 560px) {
   .navbar-image {
-    max-height: 100px;
+    max-height: 10rem;
   }
 }
 
