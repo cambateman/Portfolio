@@ -5,6 +5,7 @@ import Home from "./Pages/Home"
 import Projects from "./Pages/Projects"
 
 import Navbar from "./Components/Navbar";
+import Card1 from "./Components/Card1";
 import Banner from "./Components/Banner";
 import SkillCard from "./Components/SkillCards";
 import Footer from "./Components/Footer";
@@ -23,8 +24,10 @@ function App() {
 
     <div className="App">
       <Navbar />
+
+      <Card1 />
       
-      <Switch>
+      {/* <Switch>
 
           <Route path="/Projects">
             <Projects />
@@ -41,7 +44,7 @@ function App() {
 
       </Switch>
 
-      <Footer />
+      <Footer /> */}
     </div>
     </Router>
   );
