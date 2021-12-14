@@ -306,24 +306,38 @@ body {
   color: #28677d;
 }
 
+.flip-box-front-h2 {
+  font-size: 4rem;
+}
+
 .flip-box-front-img {
-  max-width: 250px;
-  margin-left: .25rem;
+  max-width: 25rem;
   margin-top: 30px;
 }
 
 .flip-box-back {
   background-color: #28677d;
+  color: #40c1c9;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
 .flip-box-back-title {
-  color: red;
+  font-size: 8rem;
 }
 
 .flip-box-back-description {
-  color: red;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.flip-box-back-ul {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.flip-box-back-li {
+  font-size: 3rem;
 }
 
 .flip-box-front, .flip-box-back {
@@ -838,7 +852,6 @@ body {
 
 #myBtnContainer {
   text-align: center;
-  background-color: yellowgreen;
 }
 
 .btn {
@@ -860,6 +873,5 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: yellow;
 }
 /*# sourceMappingURL=main.css.map */

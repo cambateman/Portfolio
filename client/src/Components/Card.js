@@ -15,10 +15,12 @@ export default function Card(props) {
               </div>
             </div>
             <div className="flip-box-back">
-              <h1 class="flip-box-back-title">{props.backTitle}</h1> 
-              <p class="flip-box-back-description">{props.backInformation}</p>
-              <ul>
-                <li>{props.children}</li>
+              <h2 className="flip-box-back-title">{props.backTitle}</h2> 
+              <p className="flip-box-back-description">{props.backInformation}</p>
+              <ul className="flip-box-back-ul">
+                <li className="flip-box-back-li">{props.children1}</li>
+                <li className="flip-box-back-li">{props.children2}</li>
+                <li className="flip-box-back-li">{props.children3}</li>
               </ul>
             </div>
           </div>

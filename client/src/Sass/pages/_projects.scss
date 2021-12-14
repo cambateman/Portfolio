@@ -1,11 +1,10 @@
 #myBtnContainer {
     text-align: center;
-    background-color: yellowgreen;
 }
 
 .btn {
-    color: #40c1c9;
-    background-color: #28677d;
+    color: $color1;
+    background-color: $color2;
     margin: 20px;
     padding: 10px;
     border-radius: 25px;
@@ -16,5 +15,4 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: yellow;
   }

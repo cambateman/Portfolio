@@ -1,12 +1,11 @@
 .show {
   display: block;
 }
-
+  
 .flip-box {
   background-color: transparent;
   width: 40rem;
   height: 40rem;
-  
   perspective: 1000px;
 
   &-inner {
@@ -18,28 +17,46 @@
     transform-style: preserve-3d;
   }
 
+
+
   &-front {
     background-color: $color1;
     color: $color2;
 
+      &-h2 {
+        font-size: 4rem;
+      }
+
       &-img {
-        max-width: 250px;
-        margin-left: .25rem; 
+        max-width: 25rem;
         margin-top: 30px; 
       }
   }
+  
 
   &-back {
     background-color: $color2;
+    color: $color1;
     transform: rotateY(180deg);
 
-    &-title {
-      color: red;
-    }
+      &-title {
+        font-size: 8rem;
+      }
 
-    &-description {
-      color: red;
-    }
+      &-description {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+
+      &-ul {
+        margin-left: 50px;
+        text-align: left;
+      }
+
+      &-li {
+        
+        font-size: 3rem;
+      }
   }
 
   &-front, &-back {
