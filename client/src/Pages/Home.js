@@ -9,9 +9,9 @@ import '../Sass/main.css'
 
 function Home() {
     return (
-      <div className="about-container">
+      <div className="home-container">
           <Banner />
-           <div className="index-page-cards">
+           <div className="skill-card-container">
             <SkillCard
             img={frontEnd}
             title="Front-end Development"
