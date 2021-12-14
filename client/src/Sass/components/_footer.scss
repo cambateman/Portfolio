@@ -27,10 +27,7 @@
 
 .footer-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: space-around;
-  width: 1000px;
   margin: auto;
   list-style: none;
   
@@ -44,4 +41,10 @@
 .footer-a:hover {
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-links{
+    display: block;
+  }
 }

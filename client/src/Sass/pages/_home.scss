@@ -1,9 +1,18 @@
 .about-container {
-    background-color: yellow;
     margin: 10px 10px 10px 10px;
 }
 
 .index-page-cards{
     display: flex;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    .index-page-cards {
+        display: block;
+        margin-left: 6rem;
+
+        
+         
+    }
 }
