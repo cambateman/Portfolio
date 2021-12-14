@@ -735,30 +735,23 @@ body {
     margin-top: .5rem;
   }
   .index-page-card {
-    background-color: #f7f7f7;
-    height: 30rem;
-    width: 20rem;
-    padding: 5px;
+    height: 40rem;
+    width: 30rem;
+    padding: 20px;
   }
   .index-page-card-image {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
   }
   .index-page-card-h2 {
     color: #40c1c9;
-    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.2rem;
     margin-bottom: 2rem;
   }
   .index-page-card-p {
     color: #28677d;
+    font-size: 1.5rem;
     text-align: center;
-  }
-  .index-page-card ul {
-    background-color: slateblue;
-    display: table;
-    margin: 0 auto;
-    text-align: left;
   }
 }
 
@@ -768,30 +761,23 @@ body {
     margin-top: .5rem;
   }
   .index-page-card {
-    background-color: #f7f7f7;
-    height: 30rem;
-    width: 20rem;
-    padding: 5px;
+    height: 40rem;
+    width: 30rem;
+    padding: 20px;
   }
   .index-page-card-image {
-    display: block;
     width: 50%;
-    margin: 0 auto;
   }
   .index-page-card-h2 {
     color: #40c1c9;
-    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.2rem;
     margin-bottom: 2rem;
   }
   .index-page-card-p {
     color: #28677d;
+    font-size: 1.5rem;
     text-align: center;
-  }
-  .index-page-card ul {
-    background-color: slateblue;
-    display: table;
-    margin: 0 auto;
-    text-align: left;
   }
 }
 
@@ -802,29 +788,23 @@ body {
   }
   .index-page-card {
     background-color: #f7f7f7;
-    height: 30rem;
-    width: 20rem;
-    padding: 5px;
+    height: 55rem;
+    width: 40rem;
+    padding: 20px;
   }
   .index-page-card-image {
-    display: block;
     width: 50%;
-    margin: 0 auto;
   }
   .index-page-card-h2 {
     color: #40c1c9;
-    text-align: center;
+    font-size: 3rem;
+    margin-top: 1.2rem;
     margin-bottom: 2rem;
   }
   .index-page-card-p {
     color: #28677d;
+    font-size: 2rem;
     text-align: center;
-  }
-  .index-page-card ul {
-    background-color: slateblue;
-    display: table;
-    margin: 0 auto;
-    text-align: left;
   }
 }
 
