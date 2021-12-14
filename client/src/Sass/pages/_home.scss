@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 @media only screen and (max-width: 600px) {

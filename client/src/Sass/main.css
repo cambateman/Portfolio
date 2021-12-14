@@ -867,6 +867,12 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 50px;
+  -webkit-animation-name: moveInBottom;
+          animation-name: moveInBottom;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 @media only screen and (max-width: 600px) {
