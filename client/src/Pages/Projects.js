@@ -80,6 +80,23 @@ function Projects() {
           </ul>
             
           </Card>
+
+          <Card
+            header="YelpCamp"
+            img={YelpCamp}
+            category="Fullstack Javascript"
+            selectedButton={selectedButton}
+          >
+          <h2 className="card-back-h2">YelpCamp</h2>
+          <p className="card-back-p">Indivudal project for users to add and edit campsites, rate them, and leave reviews </p>
+          <ul className="card-back-ul">
+            <li>Full-stack Javascript</li>
+            <li>EJS partials</li>
+            <li>Mongodb</li>
+            <li>External API's</li>
+          </ul>
+            
+          </Card>
         </div>
       </>
     )

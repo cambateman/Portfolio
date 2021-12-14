@@ -1,23 +1,10 @@
-
-
-
-#myBtnContainer {
-  background-color: yellowgreen;
-}
-
-
-.filterDiv {
-    /* text-align: center; */
-    margin: 2px;
-    display: none;
-}
-  
 .show {
-    display: block;
+  display: block;
 }
 
 .card-wrapper {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background-color: yellow;
@@ -25,8 +12,8 @@
 
 .flip-box {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 40rem;
+  height: 40rem;
   
   perspective: 1000px;
 }
@@ -71,19 +58,8 @@
 }
 }
 
-#myBtnContainer {
-  margin-top:100px ;
-  margin-bottom: 100px;
-  text-align: center;
-}
 
-.btn {
-  color: #40c1c9;
-  background-color: #28677d;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 25px;
-}
+
 
 .flip-box-front-h2 {
   margin-top: 30px;
