@@ -276,6 +276,10 @@ body {
   }
 }
 
+#myBtnContainer {
+  background-color: yellowgreen;
+}
+
 .filterDiv {
   /* text-align: center; */
   margin: 2px;
@@ -295,6 +299,7 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: yellow;
 }
 
 .flip-box {
@@ -354,8 +359,6 @@ body {
 }
 
 #myBtnContainer {
-  margin-top: 100px;
-  margin-bottom: 100px;
   text-align: center;
 }
 
